@@ -6,7 +6,7 @@ dependencies:
   - pip
   - jupyter_server
   - pip:
-    - jupyterlab-kernel-spy
+    - jupyterlab-kernelspy
     - jupyterlab-filesystem-access
     - jupyterlite-core==0.1.0b21
     - jupyterlite-xeus-python==0.7.0
