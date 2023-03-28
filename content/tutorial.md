@@ -110,7 +110,7 @@ Then rebuild the website with:
 jupyter lite build --content notebooks
 ```
 
-### Adding extensions
+## Adding extensions
 
 You can also add JupyterLab extensions to your JupyterLite website.
 
@@ -132,7 +132,7 @@ Then rebuild the website with:
 jupyter lite build
 ```
 
-### Localization and display languages
+## Localization and display languages
 
 It's also possible to localize the JupyterLite website so it's available in different languages.
 
@@ -148,7 +148,13 @@ Then rebuild the website with:
 jupyter lite build
 ```
 
-### Create a static dashboard from a Notebook
+## Installing extra Python packages
+
+With the Pyodide kernel you can install extra Python packages:
+
+https://jupyterlite.readthedocs.io/en/latest/howto/pyodide/packages.html
+
+## Create a static dashboard from a Notebook
 
 Install Voici with pip:
 
