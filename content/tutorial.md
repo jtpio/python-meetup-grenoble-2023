@@ -165,5 +165,5 @@ pip install voici
 Then use the `voici` command to create a static website. In this case we choose a different output folder to avoid overwriting the previous JupyterLite website:
 
 ```bash
-voici --output-dir dist --contents notebooks
+voici build --contents notebooks
 ```
